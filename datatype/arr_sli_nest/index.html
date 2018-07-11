@@ -2169,7 +2169,7 @@
                 
                   <h1>3.7. slice嵌套</h1>
                 
-                <p>slice可以嵌套包含slice，并且可以嵌套多层</p>
+                <p>slice可以嵌套包含slice，并且可以嵌套多层。也可以叫做多维slice。另外，array也支持多维array（这里就不提了）</p>
 <p>嵌套一层</p>
 <div class="codehilite"><pre><span></span><span class="nx">board1</span> <span class="o">:=</span> <span class="p">[][]</span><span class="kt">string</span><span class="p">{</span>
     <span class="p">[]</span><span class="kt">string</span><span class="p">{</span><span class="s">&quot;_&quot;</span><span class="p">,</span> <span class="s">&quot;_&quot;</span><span class="p">,</span> <span class="s">&quot;_&quot;</span><span class="p">},</span>
@@ -2178,6 +2178,17 @@
 <span class="p">}</span>
 </pre></div>
 
+<div class="admonition success">
+<p class="admonition-title">支持简写</p>
+<p>比如上面这个例子可以改为</p>
+<div class="codehilite"><pre><span></span>b := [][]string{
+    {&quot;_&quot;, &quot;_&quot;, &quot;_&quot;},
+    {&quot;_&quot;, &quot;_&quot;, &quot;_&quot;},
+    {&quot;_&quot;, &quot;_&quot;, &quot;_&quot;},
+}
+</pre></div>
+
+</div>
 <p>嵌套两层</p>
 <div class="codehilite"><pre><span></span><span class="nx">board2</span> <span class="o">:=</span> <span class="p">[][][]</span><span class="kt">string</span><span class="p">{</span>
     <span class="p">[][]</span><span class="kt">string</span><span class="p">{</span>
