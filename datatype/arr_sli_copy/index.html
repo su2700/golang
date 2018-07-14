@@ -929,6 +929,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_2" title="位置替换" class="md-nav__link">
+    位置替换
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -2216,6 +2223,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_2" title="位置替换" class="md-nav__link">
+    位置替换
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -2314,6 +2328,30 @@
 -----
 [0 0 0]
 [1 2 3] 3 3
+</pre></div>
+
+<h2 id="_2"><strong>位置替换</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<hr />
+<p>从头开始替换</p>
+<div class="codehilite"><pre><span></span><span class="nx">s1</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">}</span>
+<span class="nx">s2</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">}</span>
+<span class="nb">copy</span><span class="p">(</span><span class="nx">s2</span><span class="p">,</span> <span class="nx">s1</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">s2</span><span class="p">)</span>
+</pre></div>
+
+<p>输出</p>
+<div class="codehilite"><pre><span></span>[2 3 9 10 1 1 1 1 1 1]
+</pre></div>
+
+<p>从指定位置开始替换</p>
+<div class="codehilite"><pre><span></span><span class="nx">s1</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">}</span>
+<span class="nx">s2</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">}</span>
+<span class="nb">copy</span><span class="p">(</span><span class="nx">s2</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">],</span> <span class="nx">s1</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">s2</span><span class="p">)</span>
+</pre></div>
+
+<p>输出</p>
+<div class="codehilite"><pre><span></span>[7 8 2 3 1 1 1 1 1 1]
 </pre></div>
                 
                   
