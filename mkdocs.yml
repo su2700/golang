@@ -27,7 +27,9 @@ extra:
 
 markdown_extensions:
     - admonition
-    - codehilite(guess_lang=false,linenums=false)
+    - codehilite:
+        guess_lang: false
+        linenums: false
     - toc(permalink=true)
     - footnotes
     - meta
