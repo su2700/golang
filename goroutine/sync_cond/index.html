@@ -25,6 +25,10 @@
       
         <meta name="lang:search.language" content="jp">
       
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
         <meta name="lang:search.result.none" content="没有找到符合条件的结果">
       
         <meta name="lang:search.result.one" content="找到 1 个符合条件的结果">
@@ -34,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.6">
     
     
       
@@ -42,9 +46,14 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.5d3fffba.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.fbd935c7.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#546e7a">
       
     
     
@@ -52,32 +61,53 @@
     
     
       
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
   </head>
   
     
     
-    
-      <body data-md-color-primary="blue-grey" data-md-color-accent="pink">
-    
+    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="pink">
   
     <svg class="md-svg">
       <defs>
         
         
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
         
       </defs>
     </svg>
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
-    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        跳转至
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -90,7 +120,7 @@
         </a>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
@@ -109,15 +139,17 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
             
 <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="search"></label>
-  <div class="md-search__inner">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" required placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
-      <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+      <input type="text" class="md-search__input" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -147,7 +179,7 @@
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#github" width="24" height="24"></use>
+          <use xlink:href="#__github" width="24" height="24"></use>
         </svg>
       </div>
     
@@ -176,12 +208,12 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="drawer">
-    <span class="md-nav__button md-logo">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://cyent.github.io/golang/" title="Go语言学习 - cyent笔记" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
-    </span>
+    </a>
     Go语言学习 - cyent笔记
   </label>
   
@@ -196,7 +228,7 @@
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#github" width="24" height="24"></use>
+          <use xlink:href="#__github" width="24" height="24"></use>
         </svg>
       </div>
     
@@ -1736,10 +1768,10 @@
 
   <li class="md-nav__item md-nav__item--active">
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
-      <label class="md-nav__link md-nav__link--active" for="toc">
+      <label class="md-nav__link md-nav__link--active" for="__toc">
         3.4. 条件变量(Cond)
       </label>
     
@@ -1752,7 +1784,7 @@
   
   
   
-    <label class="md-nav__title" for="toc">目录</label>
+    <label class="md-nav__title" for="__toc">目录</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
@@ -1817,6 +1849,8 @@
   </a>
   
 </li>
+      
+      
       
       
       
@@ -2248,7 +2282,7 @@
   
   
   
-    <label class="md-nav__title" for="toc">目录</label>
+    <label class="md-nav__title" for="__toc">目录</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
@@ -2316,6 +2350,8 @@
       
       
       
+      
+      
     </ul>
   
 </nav>
@@ -2376,19 +2412,19 @@ cond.Broadcast()
 <hr />
 <p>下面图1-图3来自"郝林"的go语言书籍</p>
 <p>没用条件变量时候:</p>
-<p><img alt="" src="../../img/cond_1.png" /></p>
+<p><img alt="" src="/img/cond_1.png" /></p>
 <p>图1：生产者线程添加数据库的流程</p>
 <p>图1存在一个问题：当队列总是满的时候，就会不停的循环获取队列状态，因此也不会释放锁，而消费者就无法获得锁来取走队列中的数据。如果队列中的数据无法取走，那么队列就永远都是满的，导致了死锁。</p>
 <p>使用条件变量后，解决了这个问题：</p>
-<p><img alt="" src="../../img/cond_2.png" /></p>
+<p><img alt="" src="/img/cond_2.png" /></p>
 <p>图2：生产者线程添加数据库的流程</p>
 <p>图2解决了图1的问题：当队列满的时候，则先解锁，这样就不会死锁（释放锁给其他人用）</p>
 <p>附：和图2匹配的消费者线程</p>
-<p><img alt="" src="../../img/cond_3.png" /></p>
+<p><img alt="" src="/img/cond_3.png" /></p>
 <p>图3：消费者线程</p>
 <h2 id="_5"><strong>工作原理(原创)</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <hr />
-<p><img alt="" src="../../img/cond_4.png" /></p>
+<p><img alt="" src="/img/cond_4.png" /></p>
 <p>抢占锁后，判断自己是否满足处理 <strong><em>条件</em></strong>，如果不满足则先 <strong><em>释放锁给别人用</em></strong>，然后自己 <strong><em>阻塞</em></strong>，等别人主动 <strong><em>通知自己</em></strong>(肯定是别人的事情做完了才会通知自己)，就解除阻塞，然后再去 <strong><em>获得锁</em></strong></p>
 <div class="admonition error">
 <p class="admonition-title">Error</p>
@@ -2516,6 +2552,8 @@ Consumer: 5
               
               
                 
+
+
               
             </article>
           </div>
@@ -2565,7 +2603,7 @@ Consumer: 5
       <div class="md-footer-copyright">
         
         powered by
-        <a href="http://www.mkdocs.org">MkDocs</a>
+        <a href="https://www.mkdocs.org">MkDocs</a>
         and
         <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
@@ -2573,8 +2611,7 @@ Consumer: 5
       
         
   <div class="md-footer-social">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
     
       <a href="https://github.com/cyent" class="md-footer-social__link fa fa-github"></a>
     
@@ -2587,7 +2624,7 @@ Consumer: 5
       
     </div>
     
-      <script src="../../assets/javascripts/application.6cdc17f0.js"></script>
+      <script src="../../assets/javascripts/application.5e60981f.js"></script>
       
         
         
@@ -2598,13 +2635,15 @@ Consumer: 5
               
                 <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
               
-              <script src="../../assets/javascripts/lunr/lunr.jp.js"></script>
+              
+                <script src="../../assets/javascripts/lunr/lunr.jp.js"></script>
+              
             
           
           
         
       
-      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
         <script src="../../js/extra.js"></script>
       
