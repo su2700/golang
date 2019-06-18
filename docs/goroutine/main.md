@@ -2,7 +2,7 @@
 
 ---
 
-关于协程本身的概念，详见[进程、线程、协程](/golang/other/concurrent/#_5)
+关于协程本身的概念，详见[进程、线程、协程](./../../other/concurrent/#_5)
 
 ## **GO协程**
 
@@ -106,4 +106,4 @@ a5be9ea34f6d9aabf1bdb3ce106dc95d  -
 
 ---
 
-详见[runtime章节](/golang/other/runtime/#_3)
+详见[runtime章节](./../../other/runtime/#_3)

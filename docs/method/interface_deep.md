@@ -129,7 +129,7 @@ r = tty //tty实现了接口r，或者叫做tty赋值给了接口r
 
 ---
 
-[详见接口的类型断言实现接口章节](/golang/method/interface_assertion/#_2)
+[详见接口的类型断言实现接口章节](./../../method/interface_assertion/#_2)
 
 ## **类型断言和类型转换的区别**
 
@@ -210,7 +210,7 @@ b:	main.MyStruct {3 4} true
 
 ---
 
-[详见空接口承接指针变量章节](/golang/method/interface_empty/#_2)
+[详见空接口承接指针变量章节](./../../method/interface_empty/#_2)
 
 ## **值传递**
 

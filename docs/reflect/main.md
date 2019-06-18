@@ -1,4 +1,4 @@
-学习反射前必须要掌握的知识，详见[接口-深入理解](/golang/method/interface_deep/)
+学习反射前必须要掌握的知识，详见[接口-深入理解](./../../method/interface_deep/)
 
 ## **官网文档地址**
 

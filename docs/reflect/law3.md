@@ -30,7 +30,7 @@ panic: reflect.Value.SetFloat using unaddressable value
 
 ---
 
-reflect.Value有一个[CanSet()](/golang/reflect/pkg_type_value/#canset)方法可以用来检测Value类型的可设置性（返回一个bool类型的true或false）
+reflect.Value有一个[CanSet()](./../../reflect/pkg_type_value/#canset)方法可以用来检测Value类型的可设置性（返回一个bool类型的true或false）
 
 ## **设置值**
 
@@ -38,9 +38,9 @@ reflect.Value有一个[CanSet()](/golang/reflect/pkg_type_value/#canset)方法�
 
 若具备可设置性，接下来可以设置值，分为2步：
 
-1. 使用Value的[Elem()](/golang/reflect/pkg_type_value/#elem)方法来指向内部存储的值（Elem()方法返回的也是Value）
+1. 使用Value的[Elem()](./../../reflect/pkg_type_value/#elem)方法来指向内部存储的值（Elem()方法返回的也是Value）
 
-2. 使用Value的[SetInt()](/golang/reflect/pkg_type_value/#_2)等方法来设置值
+2. 使用Value的[SetInt()](./../../reflect/pkg_type_value/#_2)等方法来设置值
 
 > Just keep in mind that reflection Values need the address of something in order to modify what they represent
 
@@ -82,15 +82,15 @@ func main() {
 
 上面例子中涉及到的有：
 
-- [Value.Elem()](/golang/reflect/pkg_type_value/#elem)
+- [Value.Elem()](./../../reflect/pkg_type_value/#elem)
 
-- [Value.NumField()](/golang/reflect/pkg_type_value/#numfield)
+- [Value.NumField()](./../../reflect/pkg_type_value/#numfield)
 
-- [Value.Field()](/golang/reflect/pkg_type_value/#field)
+- [Value.Field()](./../../reflect/pkg_type_value/#field)
 
-- [Value.Field(x).Type()和Value.Field(x).Interface()](/golang/reflect/pkg_type_value/#fieldtypefieldinterface)
+- [Value.Field(x).Type()和Value.Field(x).Interface()](./../../reflect/pkg_type_value/#fieldtypefieldinterface)
 
-- [Type.Field(x).Name](/golang/reflect/pkg_type_value/#fieldname)
+- [Type.Field(x).Name](./../../reflect/pkg_type_value/#fieldname)
 
 !!! warning
 	结构体中的元素的名只有以大写字母开头的才是可设置的

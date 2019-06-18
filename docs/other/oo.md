@@ -1,6 +1,6 @@
 偶然在一个QQ技术群里看到的一个图片，挺生动的:
 
-![](/golang/img/oo.jpg)
+![](./../../img/oo.jpg)
 
 ## **面向对象3步**
 
@@ -331,9 +331,9 @@ func main() {
 
 ---
 
-[详见接口章节](/golang/method/interface_oo/)
+[详见接口章节](./../../method/interface_oo/)
 
-推荐小白看看: [从无到有逐步理解面向对象和接口](/golang/method/interface_01/)
+推荐小白看看: [从无到有逐步理解面向对象和接口](./../../method/interface_01/)
 
 ## **3种代码风格**
 
@@ -361,4 +361,4 @@ func main() {
 
 ---
 
-使用struct嵌套可以模拟继承，详见[面向对象写法比较-继承](/golang/method/overview/#_2)
+使用struct嵌套可以模拟继承，详见[面向对象写法比较-继承](./../../method/overview/#_2)

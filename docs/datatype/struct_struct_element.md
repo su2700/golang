@@ -27,7 +27,7 @@ func main() {
 ```
 
 !!! note
-	上面`b := new(BDog)`可以用`b := BDog{}`替代，但这2者是有一点区别的，区别在于前者是指针，详见[new](/golang/other/new/#new)
+	上面`b := new(BDog)`可以用`b := BDog{}`替代，但这2者是有一点区别的，区别在于前者是指针，详见[new](./../../other/new/#new)
 
 输出
 

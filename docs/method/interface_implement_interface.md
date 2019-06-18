@@ -39,13 +39,13 @@ i: main.MyStruct {3 4}
 
 ---
 
-[详见函数的传入参数实现接口](/golang/method/interface_argv_interface/#_1)
+[详见函数的传入参数实现接口](./../../method/interface_argv_interface/#_1)
 
 ## **函数传出参数实现接口**
 
 ---
 
-[详见函数的传出参数实现接口](/golang/method/interface_argv_interface/#_2)
+[详见函数的传出参数实现接口](./../../method/interface_argv_interface/#_2)
 
 ## **类型转换实现接口**
 
@@ -219,4 +219,4 @@ func main() {
 
 ---
 
-详见[type switch章节](/golang/method/interface_typeswitch/#_1)
+详见[type switch章节](./../../method/interface_typeswitch/#_1)

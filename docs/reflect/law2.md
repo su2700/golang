@@ -18,7 +18,7 @@
 	}
 	```
 
-[点击查看Interface()详情](/golang/reflect/pkg_type_value/#interface)
+[点击查看Interface()详情](./../../reflect/pkg_type_value/#interface)
 
 简单来说，法则2和法则1是相反的，官方解释如下：
 

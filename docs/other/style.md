@@ -101,4 +101,4 @@
 2. 如果要传的参数比较少，可以不用New，如果要传的参数很多，有十几个，可以用New
 
 !!! warning "struct和struct元素名需要大写才能被导入"
-	详见[struct-导出名](/golang/datatype/struct_export/)
+	详见[struct-导出名](./../../datatype/struct_export/)

@@ -2,6 +2,6 @@
 
 slice扩容有多种方法
 
-1. literal赋值，但每次赋值之后，原来的元素就丢失了，详见[关于literal](/golang/datatype/arr_sli_key/#literal)
+1. literal赋值，但每次赋值之后，原来的元素就丢失了，详见[关于literal](./../../datatype/arr_sli_key/#literal)
 
-2. 使用append，详见[append添加元素](/golang/datatype/arr_sli_append/)
+2. 使用append，详见[append添加元素](./../../datatype/arr_sli_append/)
