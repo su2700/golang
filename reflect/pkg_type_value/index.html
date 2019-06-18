@@ -2732,7 +2732,7 @@ true
 <span class="p">}</span>
 </pre></div>
 
-<p>上面这个例子const部分用到了类似枚举功能，详见<a href="/other/enum/">枚举章节</a></p>
+<p>上面这个例子const部分用到了类似枚举功能，详见<a href="/golang/other/enum/">枚举章节</a></p>
 <p>注意：上面reflect.Uint、reflect.Struct这种的类型是reflect.Kind，而值就是uint、struct（不是字符串"uint"、"struct"，而是go的类型uint、struct）</p>
 </details>
 <p>其次，点击打开上面的"附Kind定义"可以看到：reflect.Float64的类型是reflect.Kind，其值是14(uint的14，从Invalid往下数第14个)。</p>
@@ -2776,7 +2776,7 @@ true
 <p>注释掉的表示会报错，因此可以看出，Type和Value都支持Field()和FieldByName()，但只有Type的Field()支持.Name</p>
 <h3 id="fieldbyname"><strong>FieldByName()</strong><a class="headerlink" href="#fieldbyname" title="Permanent link">&para;</a></h3>
 <p>通过结构体的元素名查询对应的元素值，不支持.Name、.Type()、.Interface()</p>
-<p>和Value的FieldByName支持的有所不同，详见<a href="/reflect/pkg_type_value/#fieldbyname_1">Value的FieldByName</a></p>
+<p>和Value的FieldByName支持的有所不同，详见<a href="/golang/reflect/pkg_type_value/#fieldbyname_1">Value的FieldByName</a></p>
 <h2 id="reflectvalue"><strong>reflect.Value</strong><a class="headerlink" href="#reflectvalue" title="Permanent link">&para;</a></h2>
 <hr />
 <p>reflect.Value：是一个struct，在go源码/src/reflect/value.go里定义：</p>
@@ -2784,7 +2784,7 @@ true
 </pre></div>
 
 <h3 id="kind_1"><strong>Kind()</strong><a class="headerlink" href="#kind_1" title="Permanent link">&para;</a></h3>
-<p><a href="/reflect/pkg_type_value/#kind">同reflec.Type.Kind()</a></p>
+<p><a href="/golang/reflect/pkg_type_value/#kind">同reflec.Type.Kind()</a></p>
 <h3 id="type"><strong>Type()</strong><a class="headerlink" href="#type" title="Permanent link">&para;</a></h3>
 <p>reflect.Value有Type()方法，用于得到reflect.Type</p>
 <div class="codehilite"><pre><span></span><span class="kn">package</span> <span class="nx">main</span>
@@ -2966,7 +2966,7 @@ int64 10
 <p>若将int64类型用Float()方法打印会报错，同样，float64用Int()打印也会报错，不过有一个特殊的，就是上面提到的String()，按理来说应该也会报错，但这样意义不大，还不如输出点什么有意义的，便于调试，于是就输出<code>&lt;float64 Value&gt;</code>好了</p>
 <h3 id="_2"><strong>设置值</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
 <h4 id="setintsetfloat">SetInt()、SetFloat()<a class="headerlink" href="#setintsetfloat" title="Permanent link">&para;</a></h4>
-<p>Value类型变量还拥有一些名如SetInt和SetFloat的方法用来改变内部存储的值，但要注意仅对指针这种地址传递的才有效，并且要用上<a href="/reflect/pkg_type_value/#elem">Elem()</a>才行</p>
+<p>Value类型变量还拥有一些名如SetInt和SetFloat的方法用来改变内部存储的值，但要注意仅对指针这种地址传递的才有效，并且要用上<a href="/golang/reflect/pkg_type_value/#elem">Elem()</a>才行</p>
 <p>SetInt()例子</p>
 <div class="codehilite"><pre><span></span><span class="kn">package</span> <span class="nx">main</span>
 
@@ -3042,7 +3042,7 @@ v: reflect.Value 10
 i: main.MyInt 10
 </pre></div>
 
-<p>由于是空接口，因此如果类型（比如上面的MyInt）有方法的话是无法执行的，若想可以执行方法，可以用类型断言，详见<a href="/method/interface_implement_interface/#_5">类型断言实现接口</a>，例如：</p>
+<p>由于是空接口，因此如果类型（比如上面的MyInt）有方法的话是无法执行的，若想可以执行方法，可以用类型断言，详见<a href="/golang/method/interface_implement_interface/#_5">类型断言实现接口</a>，例如：</p>
 <div class="codehilite"><pre><span></span><span class="kn">package</span> <span class="nx">main</span>
 
 <span class="kn">import</span> <span class="p">(</span>
@@ -3118,7 +3118,7 @@ i: main.MyInt 10
 <div class="codehilite"><pre><span></span>false
 </pre></div>
 
-<p>虽然用了指针，但还是不可设置性，因为要取它的指向的值才可以，详见<a href="/reflect/pkg_type_value/#elem">Elem()章节</a></p>
+<p>虽然用了指针，但还是不可设置性，因为要取它的指向的值才可以，详见<a href="/golang/reflect/pkg_type_value/#elem">Elem()章节</a></p>
 </details>
 <details class="note"><summary>附: CanSet()定义</summary><div class="codehilite"><pre><span></span><span class="kd">func</span> <span class="p">(</span><span class="nx">v</span> <span class="nx">Value</span><span class="p">)</span> <span class="nx">CanSet</span><span class="p">()</span> <span class="kt">bool</span> <span class="p">{</span>
     <span class="k">return</span> <span class="nx">v</span><span class="p">.</span><span class="nx">flag</span><span class="o">&amp;</span><span class="p">(</span><span class="nx">flagAddr</span><span class="p">|</span><span class="nx">flagRO</span><span class="p">)</span> <span class="o">==</span> <span class="nx">flagAddr</span>
@@ -3325,7 +3325,7 @@ f1: reflect.Value 4
 
 <h3 id="fieldbyname_1"><strong>FieldByName()</strong><a class="headerlink" href="#fieldbyname_1" title="Permanent link">&para;</a></h3>
 <p>通过结构体的元素名查询对应的元素值，不支持.Name，但支持.Type()、.Interface()。</p>
-<p>和Type的FieldByName支持的有所不同，详见<a href="/reflect/pkg_type_value/#fieldbyname">Type的FieldByName</a></p>
+<p>和Type的FieldByName支持的有所不同，详见<a href="/golang/reflect/pkg_type_value/#fieldbyname">Type的FieldByName</a></p>
                 
                   
                 

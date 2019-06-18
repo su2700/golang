@@ -2,587 +2,587 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://cyent.github.io/golang/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/organization/workspace/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/organization/gopath/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/organization/importpath/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/organization/helloworld/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/organization/firstlib/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/organization/test/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/packages/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/imports/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/exportname/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/function/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/variable_declare/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/variable_affect/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/const/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/type_main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/type_default/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/type_change/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/type_guess/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/basic/type_custom/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/flow/for/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/flow/if/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/flow/switch/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/flow/defer/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/pointer/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/struct_main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/struct_export/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/struct_pointer/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/struct_literal/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/struct_anon/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/struct_interface_element/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/struct_struct_element/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/struct_empty/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_len_cap/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_index/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_key/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_nil/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_make/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_nest/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_expand/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_append/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_sli_copy/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/arr_empty_interface/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/map_main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/map_nil/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/map_struct/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/map_literal/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/map_get_insert_update/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/map_delete/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/funcvalue_main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/funcvalue_parameter/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/funcvalue_callback/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/datatype/funcvalue_closure/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/overview/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/method_main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/method_receiver/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_syntax/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_why/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_oo/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_application/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_argv/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_receiver/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_implement/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_nil/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_empty/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_assertion/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_typeswitch/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_stringer/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_argv_interface/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_implement_interface/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_error/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_struct_element/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_deep/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/method/interface_01/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/reflect/main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/reflect/pkg_type_value/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/reflect/pkg_typeof_valueof/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/reflect/fmt/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/reflect/law1/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/reflect/law2/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/reflect/law3/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/channel_main/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/channel_buffer/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/channel_close/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/channel_select/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/channel_rw/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/sync_mutex/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/sync_rwmutex/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/sync_waitgroup/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/sync_cond/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/sync_pool/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/goroutine/sync_reference/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/string/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/range/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/concurrent/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/binary_operation/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/loop_iterate_traversal_recursion/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/go_python/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/oo/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/nil/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/make/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/enum/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/readers/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/style/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/new/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/ptr_cpu/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/ptr_stdout/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/fork/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/runtime/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/constructor/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/other/generator/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/appendix/doc/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/appendix/code/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/appendix/cli_go_get/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://cyent.github.io/golang/contact/</loc>
-     <lastmod>2019-05-31</lastmod>
+     <lastmod>2019-06-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
