@@ -2412,19 +2412,19 @@ cond.Broadcast()
 <hr />
 <p>下面图1-图3来自"郝林"的go语言书籍</p>
 <p>没用条件变量时候:</p>
-<p><img alt="" src="/img/cond_1.png" /></p>
+<p><img alt="" src="./../../img/cond_1.png" /></p>
 <p>图1：生产者线程添加数据库的流程</p>
 <p>图1存在一个问题：当队列总是满的时候，就会不停的循环获取队列状态，因此也不会释放锁，而消费者就无法获得锁来取走队列中的数据。如果队列中的数据无法取走，那么队列就永远都是满的，导致了死锁。</p>
 <p>使用条件变量后，解决了这个问题：</p>
-<p><img alt="" src="/img/cond_2.png" /></p>
+<p><img alt="" src="./../../img/cond_2.png" /></p>
 <p>图2：生产者线程添加数据库的流程</p>
 <p>图2解决了图1的问题：当队列满的时候，则先解锁，这样就不会死锁（释放锁给其他人用）</p>
 <p>附：和图2匹配的消费者线程</p>
-<p><img alt="" src="/img/cond_3.png" /></p>
+<p><img alt="" src="./../../img/cond_3.png" /></p>
 <p>图3：消费者线程</p>
 <h2 id="_5"><strong>工作原理(原创)</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <hr />
-<p><img alt="" src="/img/cond_4.png" /></p>
+<p><img alt="" src="./../../img/cond_4.png" /></p>
 <p>抢占锁后，判断自己是否满足处理 <strong><em>条件</em></strong>，如果不满足则先 <strong><em>释放锁给别人用</em></strong>，然后自己 <strong><em>阻塞</em></strong>，等别人主动 <strong><em>通知自己</em></strong>(肯定是别人的事情做完了才会通知自己)，就解除阻塞，然后再去 <strong><em>获得锁</em></strong></p>
 <div class="admonition error">
 <p class="admonition-title">Error</p>
