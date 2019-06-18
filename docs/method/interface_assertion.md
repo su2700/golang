@@ -123,16 +123,16 @@ k: main.MyStruct {3 4}
 
 ---
 
-[详见各种实现章节](/method/interface_implement_interface/#_5)
+[详见各种实现章节](/golang/method/interface_implement_interface/#_5)
 
 ## **类型断言获得承接的指针变量指向的值**
 
 ---
 
-[详见空接口承接指针变量](/method/interface_empty/#_2)
+[详见空接口承接指针变量](/golang/method/interface_empty/#_2)
 
 ## **类型转换和类型断言的区别**
 
 ---
 
-详见[接口章节-深入理解](/method/interface_deep/#_6)
+详见[接口章节-深入理解](/golang/method/interface_deep/#_6)

@@ -33,7 +33,7 @@ go install github.com/cyent/golang/example/stringutil
 
 ## **调用lib**
 
-修改[上一页](/organization/helloworld/#hello-world)中的`hello.go`，改为：
+修改[上一页](/golang/organization/helloworld/#hello-world)中的`hello.go`，改为：
 
 ```go
 package main

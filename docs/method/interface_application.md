@@ -55,7 +55,7 @@ default:
 ```
 
 !!! note
-	interface使用起来有无数种变形方式，但无论是那种，都要符合上面说的平行选一的业务逻辑。比如[golang-targz脑图](/attachment/golang_targz.itmz)（点击下载，并使用iThoughtsX打开），其中archive/tar/writer.go里
+	interface使用起来有无数种变形方式，但无论是那种，都要符合上面说的平行选一的业务逻辑。比如[golang-targz脑图](/golang/attachment/golang_targz.itmz)（点击下载，并使用iThoughtsX打开），其中archive/tar/writer.go里
 
 	```text
 	func NewWriter(w io.Writer) *Writer { return &Writer{w: w} }

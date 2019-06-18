@@ -91,16 +91,16 @@ a is nil
 
 ---
 
-[详见array slice章节](/datatype/arr_sli_nil/)
+[详见array slice章节](/golang/datatype/arr_sli_nil/)
 
 ## **map nil**
 
 ---
 
-[详见map章节](/datatype/map_nil/)
+[详见map章节](/golang/datatype/map_nil/)
 
 ## **interface nil**
 
 ---
 
-[详见接口章节](/method/interface_nil/)
+[详见接口章节](/golang/method/interface_nil/)

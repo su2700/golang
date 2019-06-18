@@ -177,7 +177,7 @@ true
 		}
 		```
 
-		上面这个例子const部分用到了类似枚举功能，详见[枚举章节](/other/enum/)
+		上面这个例子const部分用到了类似枚举功能，详见[枚举章节](/golang/other/enum/)
 
 		注意：上面reflect.Uint、reflect.Struct这种的类型是reflect.Kind，而值就是uint、struct（不是字符串"uint"、"struct"，而是go的类型uint、struct）
 
@@ -224,7 +224,7 @@ fmt.Println(t.FieldByName("A").Name) // panic
 
 通过结构体的元素名查询对应的元素值，不支持.Name、.Type()、.Interface()
 
-和Value的FieldByName支持的有所不同，详见[Value的FieldByName](/reflect/pkg_type_value/#fieldbyname_1)
+和Value的FieldByName支持的有所不同，详见[Value的FieldByName](/golang/reflect/pkg_type_value/#fieldbyname_1)
 
 ## **reflect.Value**
 
@@ -238,7 +238,7 @@ reflect.Value：是一个struct，在go源码/src/reflect/value.go里定义：
 
 ### **Kind()**
 
-[同reflec.Type.Kind()](/reflect/pkg_type_value/#kind)
+[同reflec.Type.Kind()](/golang/reflect/pkg_type_value/#kind)
 
 ### **Type()**
 
@@ -442,7 +442,7 @@ int64 10
 
 #### SetInt()、SetFloat()
 
-Value类型变量还拥有一些名如SetInt和SetFloat的方法用来改变内部存储的值，但要注意仅对指针这种地址传递的才有效，并且要用上[Elem()](/reflect/pkg_type_value/#elem)才行
+Value类型变量还拥有一些名如SetInt和SetFloat的方法用来改变内部存储的值，但要注意仅对指针这种地址传递的才有效，并且要用上[Elem()](/golang/reflect/pkg_type_value/#elem)才行
 
 SetInt()例子
 
@@ -532,7 +532,7 @@ v: reflect.Value 10
 i: main.MyInt 10
 ```
 
-由于是空接口，因此如果类型（比如上面的MyInt）有方法的话是无法执行的，若想可以执行方法，可以用类型断言，详见[类型断言实现接口](/method/interface_implement_interface/#_5)，例如：
+由于是空接口，因此如果类型（比如上面的MyInt）有方法的话是无法执行的，若想可以执行方法，可以用类型断言，详见[类型断言实现接口](/golang/method/interface_implement_interface/#_5)，例如：
 
 ```go hl_lines="22"
 package main
@@ -622,7 +622,7 @@ reflect.Value有一个CanSet()方法可以用来检测Value类型的可设置性
 	false
 	```
 
-	虽然用了指针，但还是不可设置性，因为要取它的指向的值才可以，详见[Elem()章节](/reflect/pkg_type_value/#elem)
+	虽然用了指针，但还是不可设置性，因为要取它的指向的值才可以，详见[Elem()章节](/golang/reflect/pkg_type_value/#elem)
 
 ??? note "附: CanSet()定义"
 	```go
@@ -856,4 +856,4 @@ func main() {
 
 通过结构体的元素名查询对应的元素值，不支持.Name，但支持.Type()、.Interface()。
 
-和Type的FieldByName支持的有所不同，详见[Type的FieldByName](/reflect/pkg_type_value/#fieldbyname)
+和Type的FieldByName支持的有所不同，详见[Type的FieldByName](/golang/reflect/pkg_type_value/#fieldbyname)
