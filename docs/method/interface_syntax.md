@@ -64,7 +64,7 @@
 		可以写成
 
 		```go
-		var f Adder = MyStruct{3, 4}
+		var f Adder = &MyStruct{3, 4}
 		```
 
 	输出
